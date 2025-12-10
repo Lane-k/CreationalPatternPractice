@@ -9,5 +9,7 @@ g++ -I./include src/Demo.cpp main/DemoMain.cpp -o DemoExeName
 for the abstract factory, we also need to compile the Factory.cpp file so use:
 g++ -I./include src/Factory.cpp src/AbstractFactory.cpp main/AbstractFactoryMain.cpp -o Abfact
 
+Also no, I don't feel like setting up a makefile at the moment.
+
 # For anyone reading who isnt me
 Wow, what a steaming pile of dangerous code and crap syntax. Disclaimer: Do not try to replicate my code if you value your self respect.
