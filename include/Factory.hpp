@@ -24,7 +24,7 @@ class vehicle {
      * Showcases how we can use a factory to hide how we make certain objects
      * and use different methods
      */
-  vehicle(int);
+   vehicle(int);
     /**
      * @brief states the doors on the vehicle we make
      * @details pure virtual based on the car class
