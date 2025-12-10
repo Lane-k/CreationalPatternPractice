@@ -3,7 +3,7 @@
  * @date dec 9 2025
 */
 #ifndef ABSTRACT_FAC_H_
-#define ABSTRACT_FAC_
+#define ABSTRACT_FAC_H_
 
 #include <vector>
 #include <string>
