@@ -61,6 +61,8 @@ std::vector<vehicle*> Dealership::makeFleet(dealerSpecialty ds) {
     int i = 0;
     std::vector<vehicle*> tempVec;
     switch(ds) {
+        //Ideally, this code block should be called boxerFactory or something similar
+        //Abstract factories are supposed to use the concrete factories.
         case dealerSpecialty::BOXER :
         do {
             tempVec.push_back(new boxer(vehicleTypes::COUPE, 2));
